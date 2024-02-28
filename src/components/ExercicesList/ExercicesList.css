@@ -1,0 +1,18 @@
+.exercices-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercice {
+  display: flex;
+  width: 700px;
+  padding: 10px 20px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.exercice:hover {
+  background-color: rgb(230, 230, 230);
+  transition: 0.3s;
+}

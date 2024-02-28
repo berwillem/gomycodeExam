@@ -1,0 +1,40 @@
+.student-list {
+  margin-top: 60px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+.buttons {
+  display: flex;
+
+  justify-content: center;
+  gap: 35px;
+}
+tbody button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+td a {
+  color: black;
+  text-decoration: none;
+}
+.activeButton {
+  background-color: orange;
+}
